@@ -15,6 +15,10 @@ class CarShops {
 			{ "C_Hatchback_01_sport_F", 40000, "driver" },
 			{ "C_Van_01_transport_F", 45000, "driver" },
 			{ "LandRover_ACR", 45000, "driver" },
+			{ "LandRover_CZ_EP1", 45000, "driver" },
+			{ "LandRover_TK_CIV_EP1", 45000, "driver" },
+			{ "BAF_Offroad_W", 45000, "driver" },
+			{ "BAF_Offroad_D", 45000, "driver" },
 			{ "Jonzie_Ceed", 45000, "driver" },
 			{ "Jonzie_Corolla", 45000, "driver" },
 			{ "Jonzie_Datsun_510", 45000, "driver" },
@@ -31,15 +35,27 @@ class CarShops {
 			{ "Jonzie_Viper", 45000, "driver" },
 			{ "Jonzie_XB", 45000, "driver" },
 			{ "Jonzie_30CSL", 45000, "driver" },
-			{ "LandRover_CZ_EP1", 45000, "driver" }
-			{ "BAF_Offroad_W", 45000, "driver" }
-			{ "BAF_Offroad_D", 45000, "driver" }
-			{ "LandRover_TK_CIV_EP1", 45000, "driver" }
+			{ "tal_murci_white", 45000, "driver" },
+			{ "tal_murci_grey", 45000, "driver" },
+			{ "tal_murci_orange", 45000, "driver" },
+			{ "tal_murci_red", 45000, "driver" },
+			{ "tal_murci_blue", 45000, "driver" },
+			{ "tal_murci_green", 45000, "driver" },
+			{ "tal_murci_purple", 45000, "driver" },
+			{ "tal_murci_yellow", 45000, "driver" },
+			{ "tal_murci_PC", 45000, "driver" },
+			{ "tal_murci_lightblue", 45000, "driver" },
+			{ "tal_murci_lime", 45000, "driver" },
+			{ "tal_murci_pink", 45000, "driver" },
+			{ "tal_murci_black ", 45000, "driver" }
+			
 	
 			
 
 		};
 	};
+	
+
 
 	class kart_shop {
 		side = "civ";
@@ -79,9 +95,26 @@ class CarShops {
 			{ "O_Truck_03_transport_F", 200000, "trucking" },
 			{ "O_Truck_03_covered_F", 250000, "trucking" },
 			{ "B_Truck_01_box_F", 350000, "trucking" },
+			{ "Jonzie_Transit", 350000, "trucking" },
+			{ "Jonzie_Box_Truck", 350000, "trucking" },
+			{ "Jonzie_Flat_Bed", 350000, "trucking" },
+			{ "Jonzie_Log_Truck", 350000, "trucking" },
+			{ "Jonzie_Tanker_Truck", 350000, "trucking" },
+			{ "Jonzie_Tow_Truck", 350000, "trucking" },
+			{ "Jonzie_Pallet_Empty", 350000, "trucking" },
 			{ "O_Truck_03_device_F", 450000, "trucking" }
 		};
 	};
+	
+
+
+
+
+
+
+
+
+
 
 	class reb_car {
 		side = "civ";
@@ -862,6 +895,62 @@ class CfgVehicles {
         chopShop = 5000;
         textures[] = {};
     };
+	class Jonzie_Transit {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Box_Truck {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Flat_Bed {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Log_Truck {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Tanker_Truck {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Tow_Truck {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Pallet_Empty {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
 	class Jonzie_XB {
         vItemSpace = 210;
         storageFee[] = { 55000, 0, 22000, 0 };
@@ -870,6 +959,115 @@ class CfgVehicles {
         chopShop = 5000;
         textures[] = {};
     };
+	class tal_murci_black {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_white {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_grey {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_orange {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_red {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_blue {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_green {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_purple {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_yellow {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_PC {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_lightblue {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_lime {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class tal_murci_pink {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	
+	
+	
+	
+	
 	
 	
 
