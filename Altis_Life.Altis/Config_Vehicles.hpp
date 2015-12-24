@@ -30,15 +30,12 @@ class CarShops {
 			{ "Jonzie_VE", 45000, "driver" },
 			{ "Jonzie_Viper", 45000, "driver" },
 			{ "Jonzie_XB", 45000, "driver" },
-			{ "Jonzie_30CSL", 45000, "driver" }
-			
-			
-
-
-
-
-
-
+			{ "Jonzie_30CSL", 45000, "driver" },
+			{ "LandRover_CZ_EP1", 45000, "driver" }
+			{ "BAF_Offroad_W", 45000, "driver" }
+			{ "BAF_Offroad_D", 45000, "driver" }
+			{ "LandRover_TK_CIV_EP1", 45000, "driver" }
+	
 			
 
 		};
@@ -714,6 +711,38 @@ class CfgVehicles {
         };
     };
 	class LandRover_ACR {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class LandRover_CZ_EP1 {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class BAF_Offroad_W {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class BAF_Offroad_D {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class LandRover_TK_CIV_EP1 {
         vItemSpace = 210;
         storageFee[] = { 55000, 0, 22000, 0 };
 		garageSell[] = { 72500, 0, 35000, 0 };
