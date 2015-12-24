@@ -14,7 +14,33 @@ class CarShops {
 			{ "C_SUV_01_F", 30000, "driver" },
 			{ "C_Hatchback_01_sport_F", 40000, "driver" },
 			{ "C_Van_01_transport_F", 45000, "driver" },
-			{ "LandRover_ACR", 45000, "driver" }
+			{ "LandRover_ACR", 45000, "driver" },
+			{ "Jonzie_Ceed", 45000, "driver" },
+			{ "Jonzie_Corolla", 45000, "driver" },
+			{ "Jonzie_Datsun_510", 45000, "driver" },
+			{ "Jonzie_Datsun_Z432", 45000, "driver" },
+			{ "Jonzie_Escalade", 45000, "driver" },
+			{ "Jonzie_Galant", 45000, "driver" },
+			{ "Jonzie_Mini_Cooper", 45000, "driver" },
+			{ "Jonzie_Mini_Cooper_R_spec", 45000, "driver" },
+			{ "Jonzie_Quattroporte", 45000, "driver" },
+			{ "Jonzie_Raptor", 45000, "driver" },
+			{ "Jonzie_STI", 45000, "driver" },
+			{ "Jonzie_Ute", 45000, "driver" },
+			{ "Jonzie_VE", 45000, "driver" },
+			{ "Jonzie_Viper", 45000, "driver" },
+			{ "Jonzie_XB", 45000, "driver" },
+			{ "Jonzie_30CSL", 45000, "driver" }
+			
+			
+
+
+
+
+
+
+			
+
 		};
 	};
 
@@ -695,6 +721,131 @@ class CfgVehicles {
         chopShop = 5000;
         textures[] = {};
     };
+	class Jonzie_30CSL {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Ceed {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Corolla {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Datsun_510 {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Datsun_Z432 {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Escalade {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Mini_Cooper {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Mini_Cooper_R_spec {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Quattroporte {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Raptor {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_STI {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Ute {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_VE {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_Viper {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	class Jonzie_XB {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
+	
+	
+
+
+
 
 	class I_Heli_Transport_02_F {
         vItemSpace = 375;
