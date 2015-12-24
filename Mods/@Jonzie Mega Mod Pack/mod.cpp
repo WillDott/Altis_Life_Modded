@@ -1,0 +1,14 @@
+name = "Jonzie Vehicles";
+picture = "logo_Jonzie.paa";
+actionName = "Workshop";
+action = "http://steamcommunity.com/id/jon0020/myworkshopfiles/?appid=107410";
+description = "Visit my steam workshop for more content: http://steamcommunity.com/id/jon0020/myworkshopfiles/?appid=107410";
+logo = "logo_Jonzie.paa";
+logoOver = "logo_Jonzie.paa";
+tooltip = "Jonzie Vehicles";
+tooltipOwned = "Jonzie Vehicles Owned";
+overview = "This is a group of vehicles made by Jonzie for the ArmA 3 community to all enjoy. Visit my Steam Workshop for more content";
+author = "Jonzie";
+overviewPicture = "logo_Jonzie.paa";
+overviewText = "Jonzie overviewText";
+overviewFootnote = "<br /><br /><t color='#999999'>This content is under Attribution-NonCommercial-NoDerivs 3.0 Australia.<br />";

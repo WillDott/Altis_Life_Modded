@@ -1,0 +1,17 @@
+Classnames :
+ACR_LandRover_AMB - ACR Woodland Ambulance
+
+LandRover_ACR - ACR (Woodland)
+LandRover_CZ_EP1 - Czech (Desert)
+BAF_Offroad_W - BAF (Woodland)
+BAF_Offroad_D - BAF (Desert)
+LandRover_TK_CIV_EP1 - Civ (Red)
+
+ACR_Offroad_HMG - ACR M2 (Woodland)
+BAF_Offroad_W_HMG - BAF M2 (Woodland)
+BAF_Offroad_D_HMG - BAF M2 (Desert)
+LandRover_MG_TK_EP1 - Taki M2 (Desert)
+
+this animate ["Hide_Tent",1]; - Removes Tent
+this animate ["Hide_Tent",0]; - Adds Tent (Tent is on by default)
+
