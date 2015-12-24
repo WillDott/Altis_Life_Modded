@@ -35,18 +35,6 @@ class CarShops {
 			{ "Jonzie_Viper", 45000, "driver" },
 			{ "Jonzie_XB", 45000, "driver" },
 			{ "Jonzie_30CSL", 45000, "driver" },
-			{ "tal_murci_white", 45000, "driver" },
-			{ "tal_murci_grey", 45000, "driver" },
-			{ "tal_murci_orange", 45000, "driver" },
-			{ "tal_murci_red", 45000, "driver" },
-			{ "tal_murci_blue", 45000, "driver" },
-			{ "tal_murci_green", 45000, "driver" },
-			{ "tal_murci_purple", 45000, "driver" },
-			{ "tal_murci_yellow", 45000, "driver" },
-			{ "tal_murci_PC", 45000, "driver" },
-			{ "tal_murci_lightblue", 45000, "driver" },
-			{ "tal_murci_lime", 45000, "driver" },
-			{ "tal_murci_pink", 45000, "driver" },
 			{ "tal_murci_black ", 45000, "driver" }
 			
 	
@@ -101,11 +89,13 @@ class CarShops {
 			{ "Jonzie_Log_Truck", 350000, "trucking" },
 			{ "Jonzie_Tanker_Truck", 350000, "trucking" },
 			{ "Jonzie_Tow_Truck", 350000, "trucking" },
-			{ "Jonzie_Pallet_Empty", 350000, "trucking" },
+			{ "Jonzie_Pallet_Empty", 3000, "trucking" },
+			{ "Jonzie_Forklift", 350000, "trucking" },
 			{ "O_Truck_03_device_F", 450000, "trucking" }
 		};
 	};
 	
+
 
 
 
@@ -959,6 +949,14 @@ class CfgVehicles {
         chopShop = 5000;
         textures[] = {};
     };
+	class Jonzie_Forklift {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
+    };
 	class tal_murci_black {
         vItemSpace = 210;
         storageFee[] = { 55000, 0, 22000, 0 };
@@ -967,102 +965,7 @@ class CfgVehicles {
         chopShop = 5000;
         textures[] = {};
     };
-	class tal_murci_white {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_grey {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_orange {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_red {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_blue {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_green {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_purple {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_yellow {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_PC {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_lightblue {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_lime {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
-	class tal_murci_pink {
-        vItemSpace = 210;
-        storageFee[] = { 55000, 0, 22000, 0 };
-		garageSell[] = { 72500, 0, 35000, 0 };
-        insurance = 2500;
-        chopShop = 5000;
-        textures[] = {};
-    };
+	
 	
 	
 	
