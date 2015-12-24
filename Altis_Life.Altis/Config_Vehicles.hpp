@@ -13,7 +13,8 @@ class CarShops {
 			{ "C_Offroad_01_F", 12500, "driver" },
 			{ "C_SUV_01_F", 30000, "driver" },
 			{ "C_Hatchback_01_sport_F", 40000, "driver" },
-			{ "C_Van_01_transport_F", 45000, "driver" }
+			{ "C_Van_01_transport_F", 45000, "driver" },
+			{ "LandRover_ACR", 45000, "driver" }
 		};
 	};
 
@@ -685,6 +686,14 @@ class CfgVehicles {
                 "#(argb,8,8,3)color(1,1,1,0.8)"
             } }
         };
+    };
+	class LandRover_ACR {
+        vItemSpace = 210;
+        storageFee[] = { 55000, 0, 22000, 0 };
+		garageSell[] = { 72500, 0, 35000, 0 };
+        insurance = 2500;
+        chopShop = 5000;
+        textures[] = {};
     };
 
 	class I_Heli_Transport_02_F {
