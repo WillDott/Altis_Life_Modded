@@ -27,18 +27,33 @@ class WeaponShops {
         msg = "";
         items[] = {
             { "arifle_TRG20_F", "", 25000 },
+			{ "30Rnd_556x45_Stanag", "", 300 },
             { "arifle_Katiba_F", "", 30000 },
+			{ "30Rnd_65x39_caseless_green", "", 275 },
             { "srifle_DMR_01_F", "", 50000 },
-            { "arifle_SDAR_F", "", 20000 },
+			{ "10Rnd_762x51_Mag", "", 500 },
+			{ "hlc_rifle_ak12", "", 50000 },
+			{ "hlc_30Rnd_545x39_B_AK", "", 500 },
+			{ "hlc_rifle_ak47", "", 50000 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 500 },
+			{ "hlc_rifle_ak74", "", 50000 },
+			{ "hlc_30Rnd_545x39_B_AK", "", 500 },
+			{ "hlc_rifle_akm", "", 50000 },
+			{ "hlc_30Rnd_762x39_b_ak", "", 500 },
+			{ "hlc_rifle_aks74", "", 50000 },
+			{ "hlc_30Rnd_545x39_B_AK", "", 500 },
+			{ "hlc_rifle_aks74u", "", 50000 },
+			{ "hlc_30Rnd_545x39_B_AK", "", 500 },
+			{ "hlc_rifle_rpk", "", 50000 },
+			{ "hlc_75Rnd_762x39_m_rpk", "", 500 },
+			{ "hlc_optic_kobra", "", 3500 },
             { "optic_ACO_grn", "", 3500 },
             { "optic_Holosight", "", 3600 },
             { "acc_flashlight", "", 1000 },
-            { "optic_Hamr", "", 7500 },
-            { "30Rnd_9x21_Mag", "", 200 },
-            { "20Rnd_556x45_UW_mag", "", 125 },
-            { "30Rnd_556x45_Stanag", "", 300 },
-            { "10Rnd_762x51_Mag", "", 500 },
-            { "30Rnd_65x39_caseless_green", "", 275 }
+            { "optic_Hamr", "", 7500 }
+                       
+            
+            
         };
     };
     class gang {
