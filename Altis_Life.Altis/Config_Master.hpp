@@ -33,7 +33,7 @@ class Life_Settings {
 
 	/* Revive system settings */
 	revive_cops = false; //true to enable cops the ability to revive everyone or false for only medics/ems.
-	revive_fee = 1500; //Revive fee that players have to pay and medics / EMS are rewarded
+	revive_fee = 7500; //Revive fee that players have to pay and medics / EMS are rewarded
 	
 	/* House related settings */
 	house_limit = 5; //Maximum amount of houses a player can own.
@@ -47,7 +47,7 @@ class Life_Settings {
 	enable_fatigue = true; //Set to false to disable the ARMA 3 false system.
 	total_maxWeight = 24; //Identifies the max carrying weight (gets adjusted throughout game when wearing different types of clothing).
 	total_maxWeightT = 24;  //Static variable for the maximum weight allowed without having a backpack
-	paycheck_period = 5; //Scaled in minutes
+	paycheck_period = 15; //Scaled in minutes
 	
 	/* Impound Variables */
 	impound_car = 3500; //Price for impounding cars
