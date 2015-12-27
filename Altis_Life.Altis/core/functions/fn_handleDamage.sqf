@@ -42,7 +42,24 @@ if(!isNull _source) then {
 				_damage = false;
 			};
 		};
-	};
+		if(_projectile in ["hlc_30rnd_556x45_b_hk33"] && _curWep in ["hlc_rifle_hk53"]) then {		
+			if(side _source == west && playerSide != west) then {
+				private["_isVehicle"];
+				_isVehicle = if(vehicle player != player) then {true} else {false};
+				_damage = false;
+				_damageHandle = false;
+				if(!(_isVehicle && !life_istazed)) then {	//Copy a knocking out function instead of using the tazing function on the server
+				[player,"Rubber Bullet",true] spawn life_fnc_knockedOut; 
+			};
+		};
+		
+		if(playerSide == west && side _source == west) then {	
+			_damage = true;	
+			_damageHandle = false;
+			};
+		};
+		
+		
 };
 
 [] call life_fnc_hudUpdate;

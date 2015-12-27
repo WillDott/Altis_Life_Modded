@@ -102,7 +102,7 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-        	{ "arifle_sdar_F", "Taser Rifle", 20000 },
+        	{ "hlc_rifle_hk53", "Rubber Bullet Rifle - HK53", 20000 },
 			{ "hgun_P07_snds_F", "Stun Pistol", 2000 },
 			{ "hgun_P07_F", "", 7500 },
 			{ "HandGrenade_Stone", "Flashbang", 1700 },
@@ -114,7 +114,7 @@ class WeaponShops {
 			{ "Medikit", "", 1000 },
 			{ "NVGoggles", "", 2000 },
 			{ "16Rnd_9x21_Mag", "", 50 },
-			{ "20Rnd_556x45_UW_mag", "Taser Rifle Magazine", 125 }
+			{ "hlc_30rnd_556x45_b_hk33", "Rubber Bullet Ammo - HK53", 125 }
         };
     };
     class cop_patrol {

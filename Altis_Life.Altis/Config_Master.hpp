@@ -136,6 +136,8 @@ class Life_Settings {
 		{"hlc_rifle_M21", 0},
 		{"hlc_20Rnd_762x51_B_M14", 0},
 		{"hlc_rifle_psg1", 0},
+		{"hlc_rifle_hk53", 0},
+		{"hlc_30rnd_556x45_b_hk33", 0},
 		{"30Rnd_9x21_Mag", 0}
 		
 		
