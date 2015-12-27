@@ -135,12 +135,7 @@ class Life_Settings {
 		{"hlc_100Rnd_762x51_B_M60E4", 0},
 		{"hlc_rifle_M21", 0},
 		{"hlc_20Rnd_762x51_B_M14", 0},
-		{"RH_ta31rco", 0},
-		{"RH_compm4s", 0},
-		{"RH_t1", 0},
-		{"RH_eotech553", 0},
-		{"RH_shortdot", 0},
-		{"RH_reflex", 0},
+		{"hlc_rifle_psg1", 0},
 		{"30Rnd_9x21_Mag", 0}
 		
 		
