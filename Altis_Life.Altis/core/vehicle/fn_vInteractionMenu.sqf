@@ -37,6 +37,15 @@ _Btn1 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_repairTruck;";
 
 if("ToolKit" in (items player) && (damage _curTarget < 1)) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
 
+if(playerSide in [west]) then {
+	_Btn7 ctrlShow true;
+	_Btn7 ctrlEnable true;
+	_Btn7 ctrlSetText "Crush";
+	_Btn7 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_copCrush;";
+} else {
+	_Btn7 ctrlShow false;
+};
+
 if(playerSide == west) then {
 	_Btn2 ctrlSetText localize "STR_vInAct_Registration";
 	_Btn2 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_searchVehAction;";
@@ -50,6 +59,13 @@ if(playerSide == west) then {
 	
 	_Btn5 ctrlSetText localize "STR_vInAct_Impound";
 	_Btn5 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundAction;";
+	
+	_Btn7 ctrlShow true;
+	_Btn7 ctrlEnable true;
+	_Btn7 ctrlSetText "Crush";
+	_Btn7 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_copCrush;";
+		} else {
+			_Btn7 ctrlShow false;
 	
 	if(_curTarget isKindOf "Ship") then {
 		_Btn6 ctrlSetText localize "STR_vInAct_PushBoat";
