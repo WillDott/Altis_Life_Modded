@@ -37,7 +37,7 @@ _Btn1 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_repairTruck;";
 
 if("ToolKit" in (items player) && (damage _curTarget < 1)) then {_Btn1 ctrlEnable true;} else {_Btn1 ctrlEnable false;};
 
-if(playerSide in [west]) then {
+if(playerSide in == west) then {
 	_Btn7 ctrlShow true;
 	_Btn7 ctrlEnable true;
 	_Btn7 ctrlSetText "Crush";
