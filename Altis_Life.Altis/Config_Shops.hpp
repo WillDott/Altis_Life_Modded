@@ -102,7 +102,7 @@ class WeaponShops {
         level = -1;
         msg = "";
         items[] = {
-        	{ "hlc_rifle_hk53", "Rubber Bullet Rifle - HK53", 20000 },
+        	{ "hlc_rifle_hk53", "Rubber Bullet Rifle", 20000 },
 			{ "hgun_P07_snds_F", "Stun Pistol", 2000 },
 			{ "hgun_P07_F", "", 7500 },
 			{ "HandGrenade_Stone", "Flashbang", 1700 },
@@ -114,7 +114,7 @@ class WeaponShops {
 			{ "Medikit", "", 1000 },
 			{ "NVGoggles", "", 2000 },
 			{ "16Rnd_9x21_Mag", "", 50 },
-			{ "hlc_30rnd_556x45_b_hk33", "Rubber Bullet Ammo - HK53", 125 }
+			{ "hlc_30rnd_556x45_b_hk33", "Rubber Bullet Ammo", 125 }
         };
     };
     class cop_patrol {
@@ -143,12 +143,6 @@ class WeaponShops {
         level = 3;
         msg = "You must be a Sergeant Rank!";
         items[] = {
-            { "hlc_rifle_g3sg1", "", 15000 },
-			{ "hlc_20rnd_762x51_b_G3", "", 15000 },
-			{ "hlc_rifle_psg1", "", 15000 },
-			{ "hlc_20rnd_762x51_b_G3", "", 15000 },
-			{ "hlc_rifle_c1A1", "", 15000 },
-			{ "hlc_20Rnd_762x51_B_fal", "", 15000 },
 			{ "hlc_rifle_Bushmaster300", "", 15000 },
 			{ "29rnd_300BLK_STANAG", "", 15000 },
 			{ "hlc_rifle_bcmjack", "", 15000 },
@@ -157,8 +151,14 @@ class WeaponShops {
 			{ "29rnd_300BLK_STANAG", "", 15000 },
 			{ "hlc_rifle_samr2", "", 15000 },
 			{ "hlc_30rnd_556x45_EPR", "", 15000 },
-			{ "hlc_rifle_M21", "", 15000 },
-			{ "hlc_20Rnd_762x51_B_M14", "", 15000 },
+			{ "hlc_rifle_honeybadger", "", 15000 },
+			{ "29rnd_300BLK_STANAG", "", 15000 },
+			{ "RH_ta31rco", "", 2500 },
+			{ "RH_compm4s", "", 2500 },
+			{ "RH_t1", "", 2500 },
+			{ "RH_eotech553", "", 2500 },
+			{ "RH_shortdot", "", 2500 },
+			{ "RH_reflex", "", 2500 },
 			{ "HandGrenade_Stone", "Flashbang", 1700 },
 			{ "SMG_02_ACO_F", "", 15000 },
 			{ "hgun_ACPC2_F", "", 17500 },
