@@ -10,7 +10,7 @@ private["_vehicle","_type","_time","_price","_vehicleData","_upp","_ui","_progre
 _vehicle = cursorTarget;
 _veh = typeOf _vehicle;
 if(!(_veh in["I_G_Offroad_01_armed_F","O_MRAP_02_F"] || _vehicle getVariable["stolen",false])) then {
-if(__GETC__(life_coplevel) < 4) exitWith {hint "You are too low of a rank to use this option!"; }; };
+if(FETCH_CONST(life_coplevel) < 4) exitWith {hint "You are too low of a rank to use this option!"; }; };
 if(!((_vehicle isKindOf "Car") || (_vehicle isKindOf "Air") || (_vehicle isKindOf "Ship"))) exitWith {};
 if(player distance cursorTarget > 10) exitWith {};
 if(!alive _vehicle) exitWith {};
