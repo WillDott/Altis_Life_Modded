@@ -35,7 +35,7 @@ class CarShops {
 			{ "Jonzie_Viper", 45000, "driver" },
 			{ "Jonzie_XB", 45000, "driver" },
 			{ "Jonzie_30CSL", 45000, "driver" },
-			{ "tal_murci_black ", 45000, "driver" }
+			{ "tal_murci_black", 45000, "driver" }
 			
 	
 			
