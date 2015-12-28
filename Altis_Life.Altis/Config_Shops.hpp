@@ -32,7 +32,7 @@ class WeaponShops {
 			{ "30Rnd_65x39_caseless_green", "", 275 },
             { "srifle_DMR_01_F", "", 50000 },
 			{ "10Rnd_762x51_Mag", "", 500 },
-			{ "hlc_rifle_ak12", "", 50000 },
+			{ "hlc_rifle_ak12", "AK12", 50000 },
 			{ "hlc_30Rnd_545x39_B_AK", "", 500 },
 			{ "hlc_rifle_ak47", "Ak47", 50000 },
 			{ "hlc_30Rnd_762x39_b_ak", "", 500 },
