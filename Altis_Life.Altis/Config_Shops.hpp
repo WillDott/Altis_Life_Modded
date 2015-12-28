@@ -64,6 +64,26 @@ class WeaponShops {
         msg = "";
         items[] = {
             { "hgun_Rook40_F", "", 1500 },
+			{ "RH_deagle", "", 1500 },
+			{ "RH_7Rnd_50_AE", "", 1500 },
+			{ "RH_cz75", "", 1500 },
+			{ "RH_16Rnd_9x19_cz", "", 1500 },
+			{ "RH_m9", "", 1500 },
+			{ "RH_15Rnd_9x19_M9", "", 1500 },
+			{ "RH_g18", "", 1500 },
+			{ "RH_33Rnd_9x19_g18", "", 1500 },
+			{ "RH_g17", "", 1500 },
+			{ "RH_17Rnd_9x19_g17", "", 1500 },
+			{ "RH_python", "", 1500 },
+			{ "RH_6Rnd_357_Mag", "", 1500 },
+			{ "RH_tec9", "", 1500 },
+			{ "RH_32Rnd_9x19_tec", "", 1500 },
+			{ "RH_tecsd", "", 1500 },
+			{ "RH_muzi", "", 1500 },
+			{ "RH_30Rnd_9x19_UZI", "", 1500 },
+			{ "RH_muzisd", "", 1500 },
+			{ "RH_bull", "", 1500 },
+			{ "RH_6Rnd_454_Mag", "", 1500 },
             { "hgun_Pistol_heavy_02_F", "", 2500 },
             { "hgun_ACPC2_F", "", 4500 },
             { "hgun_PDW2000_F", "", 9500 },
@@ -73,6 +93,7 @@ class WeaponShops {
             { "9Rnd_45ACP_Mag", "", 45 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
             { "30Rnd_9x21_Mag", "", 75 }
+			
         };
     };
     //Basic Shops
